@@ -95,3 +95,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.boxshadow{
+    box-shadow: var(--box-shadow);
+}
