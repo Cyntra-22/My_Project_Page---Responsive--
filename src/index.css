@@ -32,13 +32,14 @@ h3 {
 img{
     width: 100%;
     height: auto;
+    background-color: var(--secondary-color);
 }
 
 p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
 }
