@@ -109,3 +109,23 @@ p {
 .boxshadow {
   box-shadow: var(--box-shadow);
 }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  #contact h2 {
+    font-size: 30px;
+  }
+  #contact a {
+    font-size: 20px;
+  }
+
+  
+
+}
