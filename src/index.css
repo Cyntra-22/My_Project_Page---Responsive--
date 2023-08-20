@@ -110,7 +110,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 20px;
   }
@@ -122,7 +122,7 @@ p {
   #contact h2 {
     font-size: 30px;
   }
-  
+
   #contact a {
     font-size: 20px;
   }
@@ -133,17 +133,21 @@ p {
   }
 }
 
-
-@media screen and (max-width: 700px){
-  h1{
+@media screen and (min-width: 700px) and (max-width: 1180) {
+  h1 {
     font-size: 50px;
   }
 }
 
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 50px;
+  }
+}
 
-@media screen and (max-width: 900px){
-  h1{
-    font-size: 60px;
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
   }
 }
 
@@ -154,7 +158,8 @@ p {
   h3 {
     font-size: 15px;
   }
-  .contact-link, .about-link{
+  .contact-link,
+  .about-link {
     font-size: 13px;
   }
 }
